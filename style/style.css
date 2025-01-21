@@ -23,21 +23,54 @@
     color: #5D58EF;
 }
 
-/* header styles */
+/* Banner styles */
+.title-1{
+    color: #FEA301;
+}
+.title-2{
+    color:#01ACFD;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 50px;
+}
+
 
 
 /* nabar styles */
-/* .name{
+.name{
     font-weight: bold;
-    font-size: 2rem; */
+    font-size: 2rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.school{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
 
 .navbar{
-   justify-content: space-evenly;
+   justify-content: space-around;
+   align-items: center;
+   
 }
+
 
 .nav-item{
   list-style: none;
   margin-right: 32px;
+  margin-top: 13px;
 }
 .nav-links a{
     text-decoration: none;
@@ -49,7 +82,30 @@
     padding: 10px 10px;
     background-color: #FEA301;
     color: white;
+    border-color: #FEA301;
     border-radius: 12px;
     width: 195px;
     height: 50px;
+    margin-left: 185px;
+    border: none;
+}
+.btn-primary{
+    background-color: #111111;
+    height: 50px;
+    width: 195px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* Responsive */
+@media screen and (max-width:576px){
+    .banner{
+        flex-direction:column-reverse;
+    }
+    .nav-links{
+        display: hide;
+    }
 }
