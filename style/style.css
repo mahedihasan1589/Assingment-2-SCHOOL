@@ -77,6 +77,11 @@
     font-weight: 500;
     font-size: 1.25rem;
 }
+.mobail-navbar{
+    display: none;
+    
+}
+
  /* button styles */
 .btn-1{
     padding: 10px 10px;
@@ -98,14 +103,362 @@
     color: white;
     margin-top: 10px;
 }
+.btn-2{
+    font-size: 1rem;
+    color: #64C8FF;
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    
+}
+.btn-3{
+    font-size: 1rem;
+    color:#F0AA00 ;
+    border: none;
+    background-color: transparent;
+}
+.btn-4{
+    font-size: 1rem;
+    color: #8700FF;
+    border: none;
+    background-color: transparent;
+}
+.btn-5{
+position: absolute;
+width: 174px;
+height: 47px;
+background: #3CD8E8;
+border-radius: 47px;
+margin-left: 38px;
+margin-top: -30px;
+border: none;
+color: white;
 
 
+}
+.btn-6{
+    position: absolute;
+    background-color:#95B226;
+    width: 174px;
+    height: 47px;
+    margin-left: 38px;
+    margin-top: -30px;
+    border: none;
+    color: white;
+    border-radius: 47px;
+}
+.btn-7{
+    position: absolute;
+    background-color:#5D58F0;
+    width: 174px;
+    height: 47px;
+    margin-left: 38px;
+    margin-top: -30px;
+    border: none;
+    color: white;
+    border-radius: 47px;
+}
+.btn-8{
+    position: absolute;
+    background-color:#95B226;
+    width: 174px;
+    height: 47px;
+    margin-left: 38px;
+    margin-top: -30px;
+    border: none;
+    color: white;
+    border-radius: 47px;
+}
+.btn-9{
+    position: absolute;
+    background-color:#95B226;
+    width: 174px;
+    height: 47px;
+    margin-left: 38px;
+    margin-top: -30px;
+    border: none;
+    color: white;
+    border-radius: 47px;
+}
+.banner-container{
+    background-image: url(../assets/bg.png);
+    height: 100vh;
+}
+/* main style */
+.Curriculum-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+ 
+    
+}
+.card-1{
+   height: 475px;
+   width: 365px;
+   background-color: #fff;
+   box-shadow:  0 4px 6px rgba(0,0,0,0.1);
+   border-radius: 18px;
+   padding: 30px ;
+   background: linear-gradient(#e4f7ff, white, white, white, white);
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   
+
+}
+.card-2{
+    height: 475px;
+    width: 365px;
+    background-color: #fff;
+    box-shadow:  0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 18px;
+    padding: 30px ;
+    background: linear-gradient(#FFF4DC, white, white, white, white);
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+
+    
+
+}
+.card-3{
+    height: 475px;
+    width: 365px;
+    background-color: #fff;
+    box-shadow:  0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 18px;
+    padding: 30px ;
+    background: linear-gradient(#F2E8FF, white, white, white, white);
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+}
+.card-description{
+    color: #808080;
+}
+.card-title{
+    font-size: 1.53rem;
+    font-weight: bold;
+    
+}
+.card-img-1{
+    margin-top: -20px;
+}
+.icons{
+    margin-top: 100px;
+    text-align: center;
+}
+.icon-1{
+    width: 60px;
+    height: 60px;
+    color: white;
+    border-radius: 30px;
+}
+/* our stories */
+.our-stories{
+    background: url(../assets/bg.png), linear-gradient(0.00deg,rgba(254,163,1,0.3),rgba(255,255,255,0.3)100%);
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+
+
+.our-story-title{
+    
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.story-crad-1{
+    height: 300px;
+    width:290px;
+    border-radius: 16px;
+    background-color: white;
+}
+.story-crad-1 img{
+    border-radius: 16px;
+}
+
+.arrow:hover{
+    background-color: gray;
+}
+
+.story-title{
+    text-align: center;
+}
+.stories-1{
+    height: 630px;
+    width: 540px;
+    background-color: white;
+    border-radius: 16px;
+    align-items: center;
+    margin: 0 auto;
+}
+.img-1{
+    border-radius: 16px;
+}
+.story-1-title{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.story-description{
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+}
+.story{
+    margin-left: 38px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.our-stories-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+
+}
+.btn-10{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -100px;
+    height: 50px;
+    width: 197px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+.btn-primary:hover{
+    background-color: blue;
+}
+ .btn-10:hover{
+    background-color: blue;
+}
+/* footer section */
+footer{
+    margin-top: 50px;
+    justify-content: space-around;
+    height: 70vh;
+    
+}
+.kids-1{
+    color: white;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.footer-img{
+    height: 80px;
+    width: 82px;
+}
+.kids-description{
+    color: white;
+}
+
+.footer-section-1 ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footer-section-1 ul a{
+    text-decoration: none;
+   
+} 
+.footer-section-1 h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.footer-section-1{
+    color: white;
+  
+}
+.footer-section-2{
+    color: white;
+    
+   
+}
+.footer-section-2 h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.list-1{
+    color: white;
+}
+.hide{
+    display: none;
+}
+.section-2{
+    gap: 100px;
+}
 /* Responsive */
 @media screen and (max-width:576px){
     .banner{
         flex-direction:column-reverse;
+        align-items: stretch;
     }
-    .nav-links{
-        display: hide;
+    .banner-content{
+        justify-content: center;
+        align-items: center;
     }
+    .our-stories-container{
+       grid-template-columns: repeat(1,1fr);
+       gap: 10px;
+    }
+    .navbar, .stories-1, .icons{
+        display: none;
+    }
+    .btn-10{
+
+        align-items:  center;
+        margin-top: -5px;
+        margin-left: 50px;
+        
+    }
+    .cards{
+        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+   
+    
+    .mobail-navbar{
+        display: block;
+        border-bottom: 2px solid orange;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .banner-content{
+        justify-items: center;
+        
+    }
+    .banner-title{
+        justify-items: center;
+        margin: 0 auto;
+    }
+   .hamburger{
+    position: absolute;
+    margin-left: 250px;
+    height: 60px;
+    width: 60px;
+    
+   }
+   .section-1{
+    margin-bottom: 1000px;
+
 }
+}
+
